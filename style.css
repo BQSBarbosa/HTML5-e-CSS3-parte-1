@@ -1,0 +1,52 @@
+#banner {
+    width: 100%;
+}
+/* usamos #(tralha) para id(identificador) */
+
+.principal {
+    background: #CCCCCC;
+    padding: 30px;
+}
+
+.titulo-principal {
+    padding-left: 20px;
+}
+
+.titulo-centralizado {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#missao {
+    font-size: 20px
+}
+/* normalmente a fonte incial do navegador é 16px */
+em strong {
+    color: #FF0000;
+}
+
+.itens {
+    font-style: italic;
+}
+/* usamos . para class(classe) */
+
+.beneficios {
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+ul {
+    display: inline-block; 
+    /*  usa o display para apontar se o elemento é block(ocupar largura inteira da pagina bloqueando o conteudo da linha); inline(nao bloqueia o conteudo mas nao deixa alterar o espaçamento externo e interno) ou inline-block(quando o elemento possui as duas condições)*/
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagembeneficios {
+    width: 50%;
+}
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html> <!--usado para identificar que é um html e sua versao -->
+<html lang="pt-br"> <!-- usado para identificar o idioma da página construida -->
+    <head>    
+        <meta charset="UTF-8"> <!-- tag meta passa informacoes pro navegador com a propriedade charset que é o conjunto de caracteres com o dicionario UTF-8 usado na maioria das linguages -->
+        <title>Barbearia Alura</title> <!-- tittle é o titulo que vem escrito na aba do navegador -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1 class="titulo-principal">Barbearia Alura</h1>
+            <!-- header é a tag especifica para o cabeçalho -->
+        </header>
+        <img id="banner" src="banner.jpg">
+        <div class="principal"> <!-- div é um container generico para conteudo de fluxo, usado para agrupar elementos para fins de estilos (usando class ou id) --> 
+            <h2 class="titulo-centralizado">Sobre a Barbearia Alura</h2>
+
+            <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+
+            <p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
+            
+            <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+        </div>
+
+        <div class="beneficios">
+            <h3 class="titulo-centralizado">Benefícios</h3>
+            <ul>
+                <li class="itens">Atendimento aos clientes</li>
+                <li class="itens">Espaço diferenciado</li>
+                <li class="itens">Localização</li>
+                <li class="itens">Profissionais Qualificados</li>
+            </ul>
+
+            <img src="beneficios.jpg" class="imagembeneficios">
+        </div>
+    </body>
+</html>
+
+<!-- ha 3 possibilidades de se alterar o css: 1 é o inline, uma micro alteração na linha desejada alterando somente o elemento onde ele foi criado: <h1 style="text-align: center">Sobre a Barbearia Alura</h1>    
+a 2 forma é o estilo incorporado    <style>
+            p {
+                text-align: center
+            } 
+        </style> 
+e a 3 a mais comum é criando um novo arquivo .css salvo na mesma pasta do .html -->
